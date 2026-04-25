@@ -2,7 +2,7 @@ type Item = {
     color: string;
     radius: number;
 };
-const items: Item[] = [
+export const items: Item[] = [
     { color: "red", radius: 10 },
     { color: "blue", radius: 20 },
     { color: "green", radius: 30 },
